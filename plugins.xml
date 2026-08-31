@@ -11357,6 +11357,22 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Cambia el formulario de eliminación para mejorar la usabilidad.</description>
 			<description locale="pt_BR">Altera o formulário de exclusão para melhorar a usabilidade.</description>
 		</release>
+		<release date="2026-08-31" version="0.2.4.0" md5="36c787293e3bd9433b30c70cc83b9e2c">
+			<package>https://github.com/lepidus/deleteIncompleteSubmissions/releases/download/v0.2.4.0/deleteIncompleteSubmissions.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="omp">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds compatibility with OMP.</description>
+			<description locale="es">Añade compatibilidad con OMP.</description>
+			<description locale="pt_BR">Adiciona compatibilidade com OMP.</description>
+		</release>
 	</plugin>
 	<plugin category="generic" product="carinianaPreservation">
 		<name locale="en">Cariniana Preservation</name>
