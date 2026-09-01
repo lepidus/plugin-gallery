@@ -9170,6 +9170,39 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión corrige un error menor que afectaba a la recuperación de los títulos de las secciones.</description>
 			<description locale="pt_BR">This release fixes a minor error which affected retrieving of section titles</description>
 		</release>
+		<release date="2026-08-25" version="2.4.6.4" md5="24cf5c2a2e803cdb36ba66460e2a99d3">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.4/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">This release fixes a error in the retrieving of editors/moderators</description>
+			<description locale="es_ES">Esta versión corrige un error en la recuperación de editores/moderadores.</description>
+			<description locale="pt_BR">Esta versão corrige um erro na recuperação de editores/moderadores.</description>
+		</release>
 		<release date="2024-11-06" version="3.0.2.1" md5="267623738b12e249beec161a43722c3d">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.1/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9222,6 +9255,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es">Esta versión corrige un error menor que afectaba a la recuperación de los títulos de las secciones.</description>
 			<description locale="pt_BR">This release fixes a minor error which affected retrieving of section titles</description>
 		</release>
+		<release date="2026-08-25" version="3.0.6.2" md5="5db5029571820911c83f0e19b6ae3bae">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.6.2/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes a error in the retrieving of editors/moderators</description>
+			<description locale="es">Esta versión corrige un error en la recuperación de editores/moderadores.</description>
+			<description locale="pt_BR">Esta versão corrige um erro na recuperação de editores/moderadores.</description>
+		</release>
 		<release date="2026-07-31" version="4.0.1.1" md5="08a91acf7b7766e602255755919536e1">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v4.0.1.1/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
@@ -9234,6 +9280,19 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en">This release fixes a minor error which affected retrieving of section titles.</description>
 			<description locale="es">Esta versión corrige un error menor que afectaba a la recuperación de los títulos de las secciones.</description>
 			<description locale="pt_BR">This release fixes a minor error which affected retrieving of section titles</description>
+		</release>
+		<release date="2026-08-25" version="4.0.1.2" md5="239a9341cfe793cc4ef225600cb35947">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v4.0.1.2/scieloSubmissionsReport.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">This release fixes a error in the retrieving of editors/moderators</description>
+			<description locale="es">Esta versión corrige un error en la recuperación de editores/moderadores.</description>
+			<description locale="pt_BR">Esta versão corrige um erro na recuperação de editores/moderadores.</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="epubViewer">
