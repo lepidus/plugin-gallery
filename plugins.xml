@@ -9203,8 +9203,8 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="es_ES">Esta versión corrige un error en la recuperación de editores/moderadores.</description>
 			<description locale="pt_BR">Esta versão corrige um erro na recuperação de editores/moderadores.</description>
 		</release>
-		<release date="2026-09-03" version="2.4.6.5" md5="d8a0ecf86b75e9bc983469d2d42129fa">
-			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.5/scieloSubmissionsReport.tar.gz</package>
+		<release date="2026-09-04" version="2.4.6.6" md5="b8c1d6e62223aae985903c900a80cdff">
+			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v2.4.6.6/scieloSubmissionsReport.tar.gz</package>
 			<compatibility application="ojs2">
 				<version>3.3.0.1</version>
 				<version>3.3.0.2</version>
@@ -9232,9 +9232,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 				<version>~3.3.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
-			<description locale="en_US">This release fixes minor issues in report generation</description>
-			<description locale="es_ES">Esta versión corrige pequeños errores en la generación del informe</description>
-			<description locale="pt_BR">Esta versão corrige pequenos erros na geração do relatório</description>
+			<description locale="en_US">This release fixes a minor error which affected the retrieving of submissions' last decisions</description>
+			<description locale="es_ES">Esta versión corrige un error menor que afectaba a la recuperación de las últimas decisiones de envíos</description>
+			<description locale="pt_BR">Esta versão corrige um pequeno erro que afetava a recuperação das últimas decisões de submissões</description>
 		</release>
 		<release date="2024-11-06" version="3.0.2.1" md5="267623738b12e249beec161a43722c3d">
 			<package>https://github.com/lepidus/scieloSubmissionsReport/releases/download/v3.0.2.1/scieloSubmissionsReport.tar.gz</package>
