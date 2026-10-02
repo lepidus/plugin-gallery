@@ -12636,4 +12636,58 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">OJS 3.4 release.</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="rankingPlugin">
+		<name locale="en">FGV OpenRank</name>
+		<name locale="en_US">FGV OpenRank</name>
+		<name locale="es">FGV OpenRank</name>
+		<name locale="es_ES">FGV OpenRank</name>
+		<name locale="pt_BR">FGV OpenRank</name>
+		<homepage>https://github.com/lepidus/FGV-OpenRank</homepage>
+		<summary locale="en">Displays a tabbed block on the journal homepage with its most recent, most read, most cited and trending articles, plus a highlight tab for the editorial team's own content.</summary>
+		<summary locale="en_US">Displays a tabbed block on the journal homepage with its most recent, most read, most cited and trending articles, plus a highlight tab for the editorial team's own content.</summary>
+		<summary locale="es">Muestra en la página de inicio de la revista un bloque de pestañas con los artículos más recientes, más leídos, más citados y en tendencia, además de una pestaña destacada para el contenido que elija el equipo editorial.</summary>
+		<summary locale="es_ES">Muestra en la página de inicio de la revista un bloque de pestañas con los artículos más recientes, más leídos, más citados y en tendencia, además de una pestaña destacada para el contenido que elija el equipo editorial.</summary>
+		<summary locale="pt_BR">Exibe na página inicial da revista um bloco de abas com os artigos mais recentes, mais lidos, mais citados e em alta, além de uma aba de destaque para o conteúdo que a equipe editorial quiser.</summary>
+		<description locale="en"><![CDATA[<p>Adds a ranking block to the journal homepage. The block lists articles in tabs (Most recent, Most read, Most cited, Trending and a free-content Highlight tab), and the journal manager decides which tabs appear, in what order, with which title, description and number of items. Data comes from the journal's own metadata and usage statistics, from Crossref citations and from Altmetric scores, served from a cache refreshed daily by a scheduled task.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Adds a ranking block to the journal homepage. The block lists articles in tabs (Most recent, Most read, Most cited, Trending and a free-content Highlight tab), and the journal manager decides which tabs appear, in what order, with which title, description and number of items. Data comes from the journal's own metadata and usage statistics, from Crossref citations and from Altmetric scores, served from a cache refreshed daily by a scheduled task.</p>]]></description>
+		<description locale="es"><![CDATA[<p>Agrega un bloque de clasificación a la página de inicio de la revista. El bloque presenta los artículos en pestañas (Más recientes, Más leídos, Más citados, En tendencia y una pestaña Destacado de contenido libre), y el gestor de la revista decide qué pestañas aparecen, en qué orden, con qué título, descripción y cantidad de elementos. Los datos provienen de los metadatos y las estadísticas de uso de la propia revista, de las citas de Crossref y de la puntuación de Altmetric, servidos desde una caché actualizada diariamente por una tarea programada.</p>]]></description>
+		<description locale="es_ES"><![CDATA[<p>Agrega un bloque de clasificación a la página de inicio de la revista. El bloque presenta los artículos en pestañas (Más recientes, Más leídos, Más citados, En tendencia y una pestaña Destacado de contenido libre), y el gestor de la revista decide qué pestañas aparecen, en qué orden, con qué título, descripción y cantidad de elementos. Los datos provienen de los metadatos y las estadísticas de uso de la propia revista, de las citas de Crossref y de la puntuación de Altmetric, servidos desde una caché actualizada diariamente por una tarea programada.</p>]]></description>
+		<description locale="pt_BR"><![CDATA[<p>Adiciona um bloco de ranqueamento à página inicial da revista. O bloco lista os artigos em abas (Mais recentes, Mais lidos, Mais citados, Em alta e uma aba Destaque de conteúdo livre), e o gerente da revista decide quais abas aparecem, em que ordem, com qual título, descrição e quantidade de itens. Os dados vêm dos metadados e das estatísticas de uso da própria revista, das citações da Crossref e da pontuação Altmetric, servidos a partir de um cache atualizado diariamente por uma tarefa agendada.</p>]]></description>
+		<maintainer>
+			<name>Lepidus Tecnologia Team</name>
+			<institution>Fundação Getulio Vargas in collaboration with Lepidus</institution>
+			<email>contato@lepidus.com.br</email>
+		</maintainer>
+		<release date="2026-09-22" version="0.0.5.3" md5="1f938c949ad1ea408dd8ee6be6a6c67f">
+			<package>https://github.com/lepidus/FGV-OpenRank/releases/download/v0.0.5.3/rankingPlugin.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Improves the plugin description text in the OJS interface and adds a brief explanation of how it works to the settings window.</description>
+			<description locale="es_ES">Mejora el texto de descripción del módulo en la interfaz de OJS y agrega una breve explicación de su funcionamiento en la ventana de configuración.</description>
+			<description locale="pt_BR">Melhora o texto de descrição do plugin na interface do OJS e adiciona uma breve explicação do seu funcionamento na janela de configuração.</description>
+		</release>
+		<release date="2026-09-29" version="1.0.0.0" md5="210f065b9dbd3bccd156e941c5987c7b">
+			<package>https://github.com/lepidus/FGV-OpenRank/releases/download/v1.0.0.0/rankingPlugin.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.5.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Port of the plugin to OJS 3.5.</description>
+			<description locale="es">Adaptación del módulo para OJS 3.5.</description>
+			<description locale="pt_BR">Adaptação do plugin para o OJS 3.5.</description>
+		</release>
+	</plugin>
 </plugins>
