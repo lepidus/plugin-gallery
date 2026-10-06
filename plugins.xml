@@ -12667,9 +12667,9 @@ the registration of DOIs with mEDRA.</p>]]></description>
 		<description locale="es_ES"><![CDATA[<p>Agrega un bloque de clasificación a la página de inicio de la revista. El bloque presenta los artículos en pestañas (Más recientes, Más leídos, Más citados, En tendencia y una pestaña Destacado de contenido libre), y el gestor de la revista decide qué pestañas aparecen, en qué orden, con qué título, descripción y cantidad de elementos. Los datos provienen de los metadatos y las estadísticas de uso de la propia revista, de las citas de Crossref y de la puntuación de Altmetric, servidos desde una caché actualizada diariamente por una tarea programada.</p>]]></description>
 		<description locale="pt_BR"><![CDATA[<p>Adiciona um bloco de ranqueamento à página inicial da revista. O bloco lista os artigos em abas (Mais recentes, Mais lidos, Mais citados, Em alta e uma aba Destaque de conteúdo livre), e o gerente da revista decide quais abas aparecem, em que ordem, com qual título, descrição e quantidade de itens. Os dados vêm dos metadados e das estatísticas de uso da própria revista, das citações da Crossref e da pontuação Altmetric, servidos a partir de um cache atualizado diariamente por uma tarefa agendada.</p>]]></description>
 		<maintainer>
-			<name>Lepidus Tecnologia Team</name>
+			<name>Fundação Getulio Vargas – Sistema de Bibliotecas – Biblioteca Digital</name>
 			<institution>Fundação Getulio Vargas in collaboration with Lepidus</institution>
-			<email>contato@lepidus.com.br</email>
+			<email>biblioteca.digital@fgv.br</email>
 		</maintainer>
 		<release date="2026-09-22" version="0.0.5.3" md5="1f938c949ad1ea408dd8ee6be6a6c67f">
 			<package>https://github.com/lepidus/FGV-OpenRank/releases/download/v0.0.5.3/rankingPlugin.tar.gz</package>
